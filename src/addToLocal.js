@@ -1,7 +1,6 @@
 import tasks from './tasks.js';
 
-function addtoLocal() {
-  localStorage.setItem('tasks', JSON.stringify(tasks));
-}
+const addtoLocal = () => localStorage.setItem('tasks', JSON.stringify(tasks));
+
 
 export default addtoLocal;
