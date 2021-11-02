@@ -22,6 +22,7 @@ function getUserData() {
     enterTasks.placeholder = 'Your task can not be EMPTY......';
   } else {
     tasks.push(newTask);
+    localStorage.setItem('tasks', JSON.stringify(tasks));
   }
 }
 

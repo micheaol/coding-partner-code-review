@@ -1,12 +1,10 @@
 import tasks from './tasks.js';
 
-function getMyElement(para) {
-  return document.querySelector(para);
-}
+const getMyElement = (para) => document.querySelector(para);
 
-function createMyElement(para) {
-  return document.createElement(para);
-}
+
+const createMyElement = (para) => document.createElement(para);
+
 
 function showToUi() {
   Object.keys(localStorage).forEach((key) => {
