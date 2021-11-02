@@ -2,9 +2,7 @@ import tasks from './tasks.js';
 
 const getMyElement = (para) => document.querySelector(para);
 
-
 const createMyElement = (para) => document.createElement(para);
-
 
 function showToUi() {
   Object.keys(localStorage).forEach((key) => {
